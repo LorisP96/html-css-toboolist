@@ -40,7 +40,22 @@ main{
     border-radius: 20px;
 }
 .btn-blue{
-    background-color: #47adf1;
+    border: 2px solid lightseagreen;
+    outline: none;
+    transition-duration: 0.4s;
+}
+.btn-red{
+    border: 2px solid lightcoral;
+    outline: none;
+    transition-duration: 0.4s;
+}
+.btn-blue:hover{
+    background-color: lightseagreen;
+    color: white;
+}
+.btn-red:hover{
+    background-color: lightcoral;
+    color: white;
 }
 ul{
     list-style-type: none;
