@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    padding: 10px 20px;
+}
+h1 {
+    display: inline-block;
+    vertical-align: top;
+    font-size: 40px;
+}
+main{
+    background-color: #f6f8f9;
+    padding: 10%;
+    font-size: 25px;
+}
+.container{
+    width: 60%;
+    margin: auto;
+    background-color: lightgreen;
+}
+ul{
+    list-style-type: none;
+}
+h3{
+    font-size: 30px;
+}
