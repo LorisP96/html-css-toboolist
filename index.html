@@ -13,34 +13,42 @@
         <h1>Toboolist</h1>
     </header>
     <main>
-        <section class="container">
-            <ul>
-                <!-- prima lista -->
-                <li><h3>New Task</h3> 
-                    <ul>
-                        <li>Quarterly Newsletter</li>
-                    </ul>
-                </li>
-                <!-- seconda lista -->
-                <li><h3>Today</h3> 
-                    <ul>
-                        <li>Recruiting blog post</li>
-                        <li>Mobile app launch</li>
-                        <li>Interview John H.</li>
-                        <li>Summit update to mobile storefronts</li>
-                    </ul>
-                </li>
-                <!-- terza lista -->
-                <li><h3>Upcoming</h3>
-                    <ul>
-                        <li>Schedule meeting with Alex</li>
-                        <li>Homepage refresh</li>
-                        <li>Onboard new Sales team members</li>
-                        <li>Review editorial calendar</li>
-                    </ul>
-                </li>
-            </ul>
-        </section>
+        <div class="container">
+            <!-- button -->
+            <section class="click">
+                <button class="btn btn-blue">Add Task</button>
+                <button class="btn btn-white">Add Section</button>
+            </section>
+            <hr>
+            <section class="list">
+                <ul>
+                    <!-- prima lista -->
+                    <li><h3>New Task</h3> 
+                        <ul>
+                            <li>Quarterly Newsletter<span class="tag ed">Editorial</span></li>
+                        </ul>
+                    </li>
+                    <!-- seconda lista -->
+                    <li><h3>Today</h3> 
+                        <ul>
+                            <li>Recruiting blog post<span class="tag edit">Editorial</span></li>
+                            <li>Mobile app launch<span class="tag goal">Q1 Goals</span></li>
+                            <li>Interview John H.<span class="tag rec">Recruiting</span></li>
+                            <li>Summit update to mobile storefronts<span class="tag m">Mobile</span></li>
+                        </ul>
+                    </li>
+                    <!-- terza lista -->
+                    <li><h3>Upcoming</h3>
+                        <ul>
+                            <li>Schedule meeting with Alex</li>
+                            <li>Homepage refresh<span class="tag web">Website</span></li>
+                            <li>Onboard new Sales team members<span class="tag sales">Sales</span></li>
+                            <li>Review editorial calendar<span class="tag edit">Editorial</span></li>
+                        </ul>
+                    </li>
+                </ul>
+            </section>
+        </div>
     </main>
 </body>
 </html>

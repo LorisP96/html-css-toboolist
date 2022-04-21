@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
 }
 header{
     padding: 10px 20px;
@@ -12,18 +13,60 @@ h1 {
     font-size: 40px;
 }
 main{
-    background-color: #f6f8f9;
-    padding: 10%;
+    background-color: #01aaff;
+    padding: 5%;
     font-size: 25px;
 }
 .container{
-    width: 60%;
+    width: 80%;
     margin: auto;
-    background-color: lightgreen;
+    background-color: white;
+    padding: 0;
+}
+.click{
+    padding: 10px 40px;
+}
+.list{
+    padding: 20px 40px;
+    line-height: 50px;
+}
+.btn{
+    padding: 10px;
+    font-size: 18px;
+}
+.btn-blue{
+    background-color: #47adf1;
 }
 ul{
     list-style-type: none;
 }
 h3{
     font-size: 30px;
+}
+.tag{
+    font-size: 15px;
+    margin: 10px;
+    padding: 5px;
+    background-color: black;
+    color: white;
+    border-radius: 15px;
+}
+/* colori tag */
+.edit{
+    background-color: #45abea;
+}
+.goal{
+    background-color: #9c72e4;
+}
+.rec{
+    background-color: #64c0a9;
+}
+.m{
+    background-color: #f29e33;
+}
+.web{
+    background-color: #d863a1;
+}
+.sales{
+    background-color: #b0c926;
 }
